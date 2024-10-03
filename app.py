@@ -6,6 +6,9 @@ from flask_cors import CORS
 from models import db, Restaurant, Pizza, RestaurantPizza
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
