@@ -5,10 +5,12 @@ from flask_cors import CORS
 
 from models import db, Restaurant, Pizza, RestaurantPizza
 
+import os
+
 app = Flask(__name__)
 
 #develppment configurations
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///app.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DATABASE_URL")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] =False
 app.json.compact = False
 
