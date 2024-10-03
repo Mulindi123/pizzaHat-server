@@ -142,7 +142,6 @@ venv.bak/
 
 # Rope project settings
 .ropeproject
-/seed.py
 # mkdocs documentation
 /site
 
