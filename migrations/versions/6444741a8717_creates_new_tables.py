@@ -1,8 +1,8 @@
-"""creates tables, restaurants, pizzas, restaurant_pizzas
+"""creates new tables
 
-Revision ID: 2ee815410f06
+Revision ID: 6444741a8717
 Revises: 
-Create Date: 2023-10-27 11:25:45.399121
+Create Date: 2024-11-06 09:51:13.329539
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '2ee815410f06'
+revision = '6444741a8717'
 down_revision = None
 branch_labels = None
 depends_on = None
